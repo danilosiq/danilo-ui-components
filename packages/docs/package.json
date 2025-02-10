@@ -10,8 +10,7 @@
     "preview": "vite preview",
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
-      "build-storybook": "storybook build",
-  "deploy-storybook": "gh-pages -d storybook-static"
+       "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "@danilo-ui/eslint-config": "*",
