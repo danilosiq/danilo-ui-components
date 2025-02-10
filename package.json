@@ -1,0 +1,20 @@
+{
+  "name": "danilo-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "dependencies": {
+    "@fontsource/roboto": "^5.1.1",
+    "@phosphor-icons/react": "^2.1.7",
+    "@radix-ui/react-checkbox": "^1.1.4"
+  },
+  "devDependencies": {
+    "turbo": "^2.4.0"
+  },
+  "packageManager": "npm@8.5.0"
+}

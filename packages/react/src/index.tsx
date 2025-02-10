@@ -1,0 +1,10 @@
+export * from './components/Avatar/index'
+export * from './components/Box'
+export * from './components/Button'
+export * from './components/CheckBox/index'
+export * from './components/Heading'
+export * from './components/MultiStep/index'
+export * from './components/Text'
+export * from './components/TextArea'
+export * from './components/TextInput/index'
+
